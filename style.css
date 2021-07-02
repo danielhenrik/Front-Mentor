@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass',sans-serif;
+}
+
+.container-hero {
+    border-bottom-left-radius: 55px;
+    background-image: linear-gradient( hsl(353, 100%, 62%), hsl(13, 100%, 72%));
+    
+}
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.banner h1 {
+    color: #f1f1f1;
+    font-size: 3rem;
+}
+
+.banner p {
+    color: #f1f1f1;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.banner span {
+    margin-bottom: 80px;
+}
+
+.btn {
+    color: #f1f1f1;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.start {
+   color: hsl(353, 100%, 62%);
+   background-color: #f1f1f1;
+
+}
+
+.start:hover {
+    background-color: hsl(13, 100%, 72%);
+    background-image: linear-gradient( hsl(353, 100%, 62%), hsl(13, 100%, 72%));
+    border: 1px solid #f1f1f1;
+    color: #f1f1f1;
+}
+
+.more {
+    background-color: hsl(13, 100%, 72%);
+    background-image: linear-gradient( hsl(353, 100%, 62%), hsl(13, 100%, 72%));
+    border: 1px solid #f1f1f1;
+}
+
+.more:hover {
+    color: hsl(13, 100%, 72%);
+    background-image: #f1f1f1;
+}
+
+/*menu dropdown*/
+
+.container-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 60px;
+}
+
+.logo-svg {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: hsl(353, 100%, 62%);
+    border-radius: 8px;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*banner*/
+
+
+/*seção*/
+
+section {
+    max-width: 1440px;
+    padding-top: 120px;
+}
+
+section h1, h2, h3 {
+   color:hsl(208, 49%, 24%);
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    position: relative;
+    top: 95px;
+}
+
+.container-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.svg-bg {
+   width: 660px;
+}
+
+.text {
+    width: 550px;
+    margin-left: 168px;
+    margin-right: 130px;
+   
+}
+
+.text h3 {
+    margin-bottom: 40px;
+    font-size: 1.7rem;
+    
+}
+
+.text p {
+    letter-spacing: 1px;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    color: #747577;
+    width: 500px;
+    margin-bottom: 60px;
+}
+
+/* segunda section*/
+
+.iphone {
+    margin-top: 100px;
+    background-color: hsl(237, 17%, 21%);
+    background-image: linear-gradient(to left, #2C2D3F, #3F4164);
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.iphones-img { 
+    position: relative;
+    top: -200px;
+    left: 100px;
+
+}
+
+.iphones-img img {
+    width: 600px;
+}
+
+.iphone h3, .iphone p {
+    color: #fff;
+    
+}
+
+.laptop-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teste {
+    margin-left: 0;
+}
+
+.teste p {
+    padding-right: 20px;
+}
+
+footer {
+    background-color: hsl(240, 10%, 16%);
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-top-right-radius: 50px;
+
+}
+
+.content-footer {
+    width: 100%;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    
+}
+
+.footer-logo {
+    position: relative;
+    top: -50px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-text h1 {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.estilo {
+    margin-right: 100px;
+}
+
+.estilo a {
+    display: block;
+    color: #f1f1f1;
+    text-decoration: none;
+    font-family: 'Overpass';
+    font-size: 0.8rem;
+    padding-top: 10px;
+}
+
+.estilo a:hover {
+    color: hsl(353, 100%, 62%);
+}
